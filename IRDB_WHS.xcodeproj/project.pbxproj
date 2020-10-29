@@ -15,6 +15,7 @@
 		F20641D1254A72E800EB296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20641CF254A72E800EB296E /* LaunchScreen.storyboard */; };
 		F20641DC254A72E800EB296E /* IRDB_WHSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641DB254A72E800EB296E /* IRDB_WHSTests.swift */; };
 		F20641E7254A72E800EB296E /* IRDB_WHSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641E6254A72E800EB296E /* IRDB_WHSUITests.swift */; };
+		F2B70ADC254B01C100BA17B6 /* IRDBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F20641E2254A72E800EB296E /* IRDB_WHSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRDB_WHSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20641E6254A72E800EB296E /* IRDB_WHSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDB_WHSUITests.swift; sourceTree = "<group>"; };
 		F20641E8254A72E800EB296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F20641CD254A72E800EB296E /* Assets.xcassets */,
 				F20641CF254A72E800EB296E /* LaunchScreen.storyboard */,
 				F20641D2254A72E800EB296E /* Info.plist */,
+				F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */,
 			);
 			path = IRDB_WHS;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B70ADC254B01C100BA17B6 /* IRDBTableViewController.swift in Sources */,
 				F20641C9254A72E700EB296E /* ViewController.swift in Sources */,
 				F20641C5254A72E700EB296E /* AppDelegate.swift in Sources */,
 				F20641C7254A72E700EB296E /* SceneDelegate.swift in Sources */,
