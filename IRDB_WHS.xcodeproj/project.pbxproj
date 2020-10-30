@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F20641C5254A72E700EB296E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641C4254A72E700EB296E /* AppDelegate.swift */; };
 		F20641C7254A72E700EB296E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641C6254A72E700EB296E /* SceneDelegate.swift */; };
-		F20641C9254A72E700EB296E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641C8254A72E700EB296E /* ViewController.swift */; };
+		F20641C9254A72E700EB296E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641C8254A72E700EB296E /* DetailViewController.swift */; };
 		F20641CC254A72E700EB296E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20641CA254A72E700EB296E /* Main.storyboard */; };
 		F20641CE254A72E800EB296E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20641CD254A72E800EB296E /* Assets.xcassets */; };
 		F20641D1254A72E800EB296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20641CF254A72E800EB296E /* LaunchScreen.storyboard */; };
@@ -41,7 +41,7 @@
 		F20641C1254A72E700EB296E /* IRDB_WHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRDB_WHS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20641C4254A72E700EB296E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F20641C6254A72E700EB296E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F20641C8254A72E700EB296E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20641C8254A72E700EB296E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F20641CB254A72E700EB296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F20641CD254A72E800EB296E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20641D0254A72E800EB296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			children = (
 				F20641C4254A72E700EB296E /* AppDelegate.swift */,
 				F20641C6254A72E700EB296E /* SceneDelegate.swift */,
-				F20641C8254A72E700EB296E /* ViewController.swift */,
+				F20641C8254A72E700EB296E /* DetailViewController.swift */,
 				F20641CA254A72E700EB296E /* Main.storyboard */,
 				F20641CD254A72E800EB296E /* Assets.xcassets */,
 				F20641CF254A72E800EB296E /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 				F2AC7489254B89F7006E0393 /* DataController.swift in Sources */,
 				F2B70ADC254B01C100BA17B6 /* IRDBTableViewController.swift in Sources */,
 				F2AC748E254B8A12006E0393 /* MediaDataModel.swift in Sources */,
-				F20641C9254A72E700EB296E /* ViewController.swift in Sources */,
+				F20641C9254A72E700EB296E /* DetailViewController.swift in Sources */,
 				F20641C5254A72E700EB296E /* AppDelegate.swift in Sources */,
 				F20641C7254A72E700EB296E /* SceneDelegate.swift in Sources */,
 			);
