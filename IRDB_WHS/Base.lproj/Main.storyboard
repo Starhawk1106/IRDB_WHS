@@ -16,23 +16,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bog-ki-FNf">
-                                <rect key="frame" x="268" y="214" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cast List"/>
-                                <connections>
-                                    <segue destination="gYf-4e-SX8" kind="show" id="MAq-3P-5Qa"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USq-0E-eCj" userLabel="Header View">
+                                <rect key="frame" x="0.0" y="88" width="414" height="256"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ge3-PG-iw8" userLabel="ImageHolder">
+                                        <rect key="frame" x="8" y="8" width="164" height="240"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="gb4-fH-A0d"/>
+                                            <constraint firstAttribute="width" secondItem="Ge3-PG-iw8" secondAttribute="height" multiplier="80:117" id="wcf-2y-ZdD"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bog-ki-FNf">
+                                        <rect key="frame" x="180" y="218" width="226" height="30"/>
+                                        <state key="normal" title="Cast List"/>
+                                        <connections>
+                                            <segue destination="gYf-4e-SX8" kind="show" id="MAq-3P-5Qa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Ge3-PG-iw8" firstAttribute="leading" secondItem="USq-0E-eCj" secondAttribute="leading" constant="8" id="2nt-tT-Zlq"/>
+                                    <constraint firstAttribute="trailing" secondItem="bog-ki-FNf" secondAttribute="trailing" constant="8" id="6DW-WW-LMa"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="256" id="H7X-Ss-3OW"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ge3-PG-iw8" secondAttribute="bottom" constant="8" id="Xvp-T8-JMU"/>
+                                    <constraint firstItem="bog-ki-FNf" firstAttribute="leading" secondItem="Ge3-PG-iw8" secondAttribute="trailing" constant="8" id="Zq9-Pb-LOh"/>
+                                    <constraint firstItem="Ge3-PG-iw8" firstAttribute="top" secondItem="USq-0E-eCj" secondAttribute="top" constant="8" id="clh-Oc-lwF"/>
+                                    <constraint firstAttribute="bottom" secondItem="bog-ki-FNf" secondAttribute="bottom" constant="8" id="jKJ-Sg-Igk"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="USq-0E-eCj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8H6-HI-3sj"/>
+                            <constraint firstItem="USq-0E-eCj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hvm-1T-eXa"/>
+                            <constraint firstItem="USq-0E-eCj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xQn-87-WiE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Sw4-Sj-niB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900" y="-638"/>
+            <point key="canvasLocation" x="900.00000000000011" y="-638.16964285714278"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="h1T-Tu-4NR">
