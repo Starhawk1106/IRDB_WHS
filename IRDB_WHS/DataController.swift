@@ -33,6 +33,12 @@ class DataController: NSObject
                 
                 self.dataModel = thisMediaData
                 print(thisMediaData.franchise[0].entries[0].name)
+                
+                DispatchQueue.main.async
+                {
+                    completion(self.dataModel!)
+                }
+                
             }
             catch let err
             {
@@ -40,10 +46,6 @@ class DataController: NSObject
                 
             }
             
-            DispatchQueue.main.async
-            {
-                completion(self.dataModel!)
-            }
         }
         dataTask.resume()
     }

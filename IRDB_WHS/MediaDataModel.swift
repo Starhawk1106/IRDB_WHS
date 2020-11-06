@@ -8,7 +8,6 @@
 import UIKit
 
 class MediaDataModel: Codable {
-    
         var franchise: [Franchise]
     }
 
@@ -23,8 +22,7 @@ class MediaDataModel: Codable {
         let yearStart: String
         let yearEnd: String?
         let episodes: Int?
-        let studio: String?
-        let network: String?
+        let studio: String
         let imageURL: String
         let description: String
         let summary: String

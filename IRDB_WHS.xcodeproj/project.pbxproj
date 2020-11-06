@@ -15,6 +15,7 @@
 		F20641D1254A72E800EB296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20641CF254A72E800EB296E /* LaunchScreen.storyboard */; };
 		F20641DC254A72E800EB296E /* IRDB_WHSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641DB254A72E800EB296E /* IRDB_WHSTests.swift */; };
 		F20641E7254A72E800EB296E /* IRDB_WHSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20641E6254A72E800EB296E /* IRDB_WHSUITests.swift */; };
+		F219A2512555079A00D00FB7 /* CastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F219A2502555079A00D00FB7 /* CastTableViewController.swift */; };
 		F2AC7489254B89F7006E0393 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC7488254B89F7006E0393 /* DataController.swift */; };
 		F2AC748E254B8A12006E0393 /* MediaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC748D254B8A12006E0393 /* MediaDataModel.swift */; };
 		F2B70ADC254B01C100BA17B6 /* IRDBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */; };
@@ -52,6 +53,7 @@
 		F20641E2254A72E800EB296E /* IRDB_WHSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRDB_WHSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20641E6254A72E800EB296E /* IRDB_WHSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDB_WHSUITests.swift; sourceTree = "<group>"; };
 		F20641E8254A72E800EB296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F219A2502555079A00D00FB7 /* CastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTableViewController.swift; sourceTree = "<group>"; };
 		F2AC7488254B89F7006E0393 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		F2AC748D254B8A12006E0393 /* MediaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataModel.swift; sourceTree = "<group>"; };
 		F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBTableViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				F2B70ADB254B01C100BA17B6 /* IRDBTableViewController.swift */,
 				F2AC7488254B89F7006E0393 /* DataController.swift */,
 				F2AC748D254B8A12006E0393 /* MediaDataModel.swift */,
+				F219A2502555079A00D00FB7 /* CastTableViewController.swift */,
 			);
 			path = IRDB_WHS;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				F2AC7489254B89F7006E0393 /* DataController.swift in Sources */,
 				F2B70ADC254B01C100BA17B6 /* IRDBTableViewController.swift in Sources */,
+				F219A2512555079A00D00FB7 /* CastTableViewController.swift in Sources */,
 				F2AC748E254B8A12006E0393 /* MediaDataModel.swift in Sources */,
 				F20641C9254A72E700EB296E /* DetailViewController.swift in Sources */,
 				F20641C5254A72E700EB296E /* AppDelegate.swift in Sources */,
