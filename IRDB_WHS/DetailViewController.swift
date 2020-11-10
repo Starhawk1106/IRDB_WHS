@@ -70,10 +70,18 @@ class DetailViewController: UIViewController {
         {
             
             //If there is one episode, take the S off of Episodes
+            //I fixed this and I am soooo happy
             
             if let episodeCount = entry.episodes
             {
-                thisEpisodeLabel.text = "\(episodeCount) Episodes"
+                if episodeCount == 1
+                {
+                    thisEpisodeLabel.text = "\(episodeCount) Episode"
+                }
+                else
+                {
+                    thisEpisodeLabel.text = "\(episodeCount) Episodes"
+                }
             }
             else
             {
