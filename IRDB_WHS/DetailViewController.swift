@@ -48,7 +48,7 @@ class DetailViewController: UIViewController {
         
         if let thisMediaImage = mediaImage
         {
-            //Do The Things
+            //thisMediaImage.
         }
         
         if let thisTitleLabel = titleLabel
@@ -106,6 +106,7 @@ class DetailViewController: UIViewController {
         {
             thisSummaryTextView.text = entry.summary
         }
+        
         
       }
 

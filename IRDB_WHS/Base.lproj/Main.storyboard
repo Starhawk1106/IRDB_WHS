@@ -163,7 +163,7 @@
                         <outlet property="formatLabel" destination="ryL-wL-N5l" id="KwR-dk-B5w"/>
                         <outlet property="mediaImage" destination="Xyy-4k-OKH" id="D1s-fX-Ncy"/>
                         <outlet property="studioLabel" destination="IMF-yu-KGk" id="alB-tO-f9A"/>
-                        <outlet property="summaryTextView" destination="Y5O-iD-mCA" id="rtr-ko-5al"/>
+                        <outlet property="summaryTextView" destination="Y5O-iD-mCA" id="gTr-24-VmO"/>
                         <outlet property="titleLabel" destination="HeN-zx-Vmh" id="zqA-RF-ckk"/>
                         <outlet property="yearLabel" destination="qTM-8h-k7e" id="WMz-aM-ldA"/>
                     </connections>
