@@ -10,6 +10,7 @@ import UIKit
 class CastTableViewController: UITableViewController {
     
     var castListArray: [Cast]?
+    var starringCast: [Cast]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,10 @@ class CastTableViewController: UITableViewController {
         // Configure the cell...
         
         //Use the values in array to make cast list pretty
+        cell.textLabel?.text = castListArray?[indexPath.row].actorName
+        
+        let roleofActor = "starring as:     "
+        cell.detailTextLabel?.text = "\(roleofActor)\(castListArray?[indexPath.row].role ?? "Role")"
 
         return cell
     }

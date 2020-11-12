@@ -46,9 +46,11 @@ class DetailViewController: UIViewController {
      if let entry = detailItem
      {
         
-        if let thisMediaImage = mediaImage
+        if let imageView = mediaImage
         {
-            //thisMediaImage.
+            let url = URL(string: entry.imageURL)
+            let data = try? Data(contentsOf: url!)
+            imageView.image = UIImage(data: data!)
         }
         
         if let thisTitleLabel = titleLabel
@@ -122,7 +124,10 @@ class DetailViewController: UIViewController {
         if segue.identifier == "showCastList" {
             
             let controller = segue.destination as! CastTableViewController
-            controller.castListArray = detailItem?.starring
+            if let castArrayList = detailItem?.starring
+            {
+                controller.castListArray = castArrayList
+            }
                    //     let controller = segue.destination as! DetailViewController
                    //     controller.detailItem = selectedObject
             //}
