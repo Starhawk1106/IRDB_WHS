@@ -9,7 +9,7 @@ import UIKit
 
 class DataController: NSObject
 {
-    let JSONURL = "https://api.jsonbin.io/b/5eb061a247a2266b1472bcf9/1"
+    let JSONURL = "https://api.jsonbin.io/b/5fcf24ec65c249127ba4c140/1"
     
     var dataModel: MediaDataModel?
     
